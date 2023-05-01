@@ -1,0 +1,16 @@
+{
+  "name": "refactor-display-if",
+  "version": "1.0.0",
+  "description": "This script automates the refactoring of JSX code that uses the display-if prop from the babel-plugin-jsx-display-if package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "refactor": "jscodeshift -t ./index.js --parser=tsx --extensions=tsx,ts,js,jsx --ignore-pattern=node_modules/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jscodeshift": "^0.14.0"
+  }
+}
