@@ -41,7 +41,7 @@ npm install
 Now you can run the script using the `npm run transform` command followed by the path to your TypeScript or JavaScript source files:
 
 ```bash
-npm run transform <path-to-your-source-files>
+npm run refactor <path-to-your-source-files>
 ```
 
 The transformation will be applied to all the files in the specified folder and its subfolders. _Note_: It is best to choose a path as specific as you can to avoid running the script against unnecessary files. In most cases, the `display-if` prop won't exist outside of your `src` or `components` folder.
