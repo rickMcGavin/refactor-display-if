@@ -38,7 +38,7 @@ npm install
 
 ## Usage
 
-Now you can run the `remove-display-if.js` script using the `npm run transform` command followed by the path to your TypeScript or JavaScript source files:
+Now you can run the script using the `npm run transform` command followed by the path to your TypeScript or JavaScript source files:
 
 ```bash
 npm run transform <path-to-your-source-files>
